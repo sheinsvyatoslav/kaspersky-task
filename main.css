@@ -47,7 +47,7 @@
 .buy-block__button{background-color:#ff3748;border:0;border-radius:3px;color:#fff;font-size:16px;height:48px;line-height:1.25;margin:0;padding:0;transition:opacity .3s ease-in-out;width:118px}.buy-block__button:focus{outline:none}.buy-block__button:hover{cursor:pointer;opacity:.8}@media screen and (max-width:1279px){.buy-block__button{width:90px}}@media screen and (max-width:767px){.buy-block__button{width:100%}}
 .buy-block__button_type_small{height:48px;padding:0 12px;width:78px}
 .buy-block__condition{font-weight:300}
-.features{height:3000px;margin:95px 0 0}@media screen and (max-width:767px){.features{font-size:36px;line-height:1.1;margin:65px 0 0}}
+.features{height:1500px;margin:95px 0 0}@media screen and (max-width:767px){.features{font-size:36px;line-height:1.1;margin:65px 0 0}}
 .features__title{color:#fff;font-size:48px;font-weight:700;letter-spacing:-.03em;line-height:1.08;margin:0 0 70px;text-align:center}@media screen and (max-width:767px){.features__title{font-size:36px;line-height:1.11;margin:0 0 20px}}
 .features__container{display:flex;justify-content:space-between;position:relative}@media screen and (max-width:767px){.features__container{flex-direction:column}}
 .features__image-block{background:linear-gradient(144.23deg,rgba(126,255,51,.4),rgba(35,209,174,.4) 79.06%),#23d1ae;height:100%;left:0;margin-left:auto;margin-right:auto;position:absolute;right:0;top:0;width:155px;z-index:1}@media screen and (max-width:1023px){.features__image-block{width:100px}}@media screen and (max-width:767px){.features__image-block{background:linear-gradient(170.56deg,rgba(126,255,51,.4) 32.98%,rgba(35,209,174,.4) 59.89%),#23d1ae;height:12px;margin:-25px 0 23px;position:static;width:100%}}
