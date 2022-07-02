@@ -1,0 +1,18 @@
+.buy-block__star {
+  width: 15px;
+  height: 15px;
+  background-image: url(../../../images/star_icon.svg);
+  margin-right: 5px;
+}
+
+.buy-block__star:last-child {
+  margin-right: 10px;
+  background-image: url(../../../images/semi-star_icon.svg);
+}
+
+@media screen and (max-width: 767px) {
+  .buy-block__star:last-child {
+    margin-right: 12px;
+    background-image: url(../../../images/semi-star_icon.svg);
+  }
+}

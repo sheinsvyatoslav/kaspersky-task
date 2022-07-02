@@ -1,0 +1,31 @@
+.buy-block__save {
+  background-color: #8233FF;
+  color: white;
+  width: 285px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1.14;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin: 0 0 0 42%;
+}
+
+@media screen and (max-width: 1023px) {
+  .buy-block__save {
+    width: 220px;
+    margin: 0 auto 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .buy-block__save {
+    width: 179px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 0 auto 0 0;
+  }
+}

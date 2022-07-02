@@ -1,0 +1,21 @@
+.buy-block__new-price {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 0.81;
+  letter-spacing: -0.03em;
+  color: #1D1D1B;
+  margin: 10px 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .buy-block__new-price {
+    font-size: 54px;
+    line-height: 0.96;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .buy-block__new-price {
+    
+  }
+}

@@ -1,0 +1,16 @@
+.detection__item {
+  display: flex;
+  align-items: center;
+  margin: 0 0 16px;
+}
+
+.detection__item:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .detection__item {
+    flex-direction: column;
+    margin: 0 0 23px;
+  }
+}

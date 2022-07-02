@@ -1,0 +1,13 @@
+.buy-block__main {
+  display: flex;
+  background: linear-gradient(271.57deg, rgba(0, 168, 142, 0.4) 77.05%, rgba(126, 255, 51, 0.4) 100%), #23D1AE;
+  padding: 12px 0;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .buy-block__main {
+    flex-direction: column;
+    padding: 24px 16px 20px;
+  }
+}

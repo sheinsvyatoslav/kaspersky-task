@@ -1,0 +1,47 @@
+.gaming {
+  background-color: white;
+  padding: 56px 166px 51px; 
+  margin: 68px 0 0;
+  width: 50%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.gaming::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(233.74deg, #FFFFFF 28.85%, rgba(255, 255, 255, 0) 100%), linear-gradient(18.35deg, rgba(153, 132, 245, 0.2) 0%, rgba(153, 132, 245, 0) 87.55%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1439px) {
+  .gaming {
+    padding: 56px 140px 51px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .gaming {
+    padding: 56px 90px 51px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .gaming {
+    padding: 56px 90px 51px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .gaming {
+    width: 100%;
+    padding: 38px 24px 70px;
+    clip-path: polygon(0 0, 100% 0, 100% 91%, 0% 100%);
+  }
+}

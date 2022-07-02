@@ -1,0 +1,17 @@
+.buy-block__item_type_select {
+  margin: 0 32px 0 30px;
+}
+
+@media screen and (max-width: 879px) {
+  .buy-block__item_type_select {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .buy-block__item_type_select {
+    margin: 0;
+  }
+}
+

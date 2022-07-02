@@ -1,0 +1,78 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/_sticky/header_sticky.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__currency/header__currency.css);
+@import url(../blocks/header/__currency-text/header__currency-text.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/promo/promo.css);
+@import url(../blocks/promo/__title/promo__title.css);
+@import url(../blocks/promo/__line/promo__line.css);
+@import url(../blocks/promo/__subtitle/promo__subtitle.css);
+@import url(../blocks/promo/__list/promo__list.css);
+@import url(../blocks/promo/__list-item/promo__list-item.css);
+@import url(../blocks/promo/__list-text/promo__list-text.css);
+@import url(../blocks/promo/__image/promo__image.css);
+
+@import url(../blocks/compatibility/compatibility.css);
+@import url(../blocks/compatibility/__list/compatibility__list.css);
+@import url(../blocks/compatibility/__item/compatibility__item.css);
+@import url(../blocks/compatibility/__logo/compatibility__logo.css);
+@import url(../blocks/compatibility/__text/compatibility__text.css);
+
+@import url(../blocks/buy-block/buy-block.css);
+@import url(../blocks/buy-block/_hidden/buy-block_hidden.css);
+@import url(../blocks/buy-block/_type/buy-block_type_small.css);
+@import url(../blocks/buy-block/__save/buy-block__save.css);
+@import url(../blocks/buy-block/__main/buy-block__main.css);
+@import url(../blocks/buy-block/__item/buy-block__item.css);
+@import url(../blocks/buy-block/__item/_type/buy-block__item_type_price.css);
+@import url(../blocks/buy-block/__item/_type/buy-block__item_type_select.css);
+@import url(../blocks/buy-block/__item/_type/buy-block__item_type_description.css);
+@import url(../blocks/buy-block/__info/buy-block__info.css);
+@import url(../blocks/buy-block/__logo/buy-block__logo.css);
+@import url(../blocks/buy-block/__name/buy-block__name.css);
+@import url(../blocks/buy-block/__name/_type/buy-block__button_type_small.css);
+@import url(../blocks/buy-block/__rating/buy-block__rating.css);
+@import url(../blocks/buy-block/__reviews/buy-block__reviews.css);
+@import url(../blocks/buy-block/__star-list/buy-block__star-list.css);
+@import url(../blocks/buy-block/__star/buy-block__star.css);
+@import url(../blocks/buy-block/__old-price/buy-block__old-price.css);
+@import url(../blocks/buy-block/__new-price/buy-block__new-price.css);
+@import url(../blocks/buy-block/__new-price/_type/buy-block__new-price_type_small.css);
+@import url(../blocks/buy-block/__cent/buy-block__cent.css);
+@import url(../blocks/buy-block/__conditions-list/buy-block__conditions-list.css);
+@import url(../blocks/buy-block/__option/buy-block__option.css);
+@import url(../blocks/buy-block/__button/buy-block__button.css);
+@import url(../blocks/buy-block/__button/_type/buy-block__button_type_small.css);
+@import url(../blocks/buy-block/__condition/buy-block__condition.css);
+
+@import url(../blocks/features/features.css);
+@import url(../blocks/features/__title/features__title.css);
+@import url(../blocks/features/__container/features__container.css);
+@import url(../blocks/features/__image-block/features__image-block.css);
+@import url(../blocks/features/__image/features__image.css);
+
+@import url(../blocks/gaming/gaming.css);
+@import url(../blocks/gaming/__title/gaming__title.css);
+@import url(../blocks/gaming/__subtitle/gaming__subtitle.css);
+@import url(../blocks/gaming/__list/gaming__list.css);
+@import url(../blocks/gaming/__list-item/gaming__list-item.css);
+
+@import url(../blocks/detection/detection.css);
+@import url(../blocks/detection/__container/detection__container.css);
+@import url(../blocks/detection/__date/detection__date.css);
+@import url(../blocks/detection/__info/detection__info.css);
+@import url(../blocks/detection/__item/detection__item.css);
+@import url(../blocks/detection/__lines/detection__lines.css);
+@import url(../blocks/detection/__logo/detection__logo.css);
+@import url(../blocks/detection/__subtitle/detection__subtitle.css);
+@import url(../blocks/detection/__tests/detection__tests.css);
+@import url(../blocks/detection/__title/detection__title.css);

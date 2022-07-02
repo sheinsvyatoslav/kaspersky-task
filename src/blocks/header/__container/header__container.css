@@ -1,0 +1,19 @@
+.header__container {
+  max-width: calc(100% - (2 * 166px));
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__container {
+    max-width: calc(100% - (2 * 80px));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__container {
+    max-width: calc(100% - (2 * 24px));
+  }
+}

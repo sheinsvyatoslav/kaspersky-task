@@ -1,0 +1,15 @@
+.gaming__title {
+  color: #444444;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 21px;
+}
+
+@media screen and (max-width: 767px) {
+  .gaming__title {
+    font-size: 36px;
+    line-height: 1.11;
+    margin: 0 0 18px;
+  }
+}

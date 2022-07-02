@@ -1,0 +1,31 @@
+.buy-block {
+  max-width: calc(100% - (2 * 135px));
+  margin: -35px auto 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+@media screen and (max-width: 1439px) {
+  .buy-block{
+    max-width: calc(100% - (2 * 80px));
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .buy-block{
+    max-width: calc(100% - (2 * 30px));
+    margin: 45px auto 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .buy-block{
+    max-width: calc(100% - (2 * 16px));
+    display: flex;
+    flex-direction: column;
+    margin: 45px auto 0;
+    top: calc(100vh - 393px);
+  }
+}

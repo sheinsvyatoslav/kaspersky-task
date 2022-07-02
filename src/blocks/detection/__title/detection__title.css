@@ -1,0 +1,29 @@
+.detection__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.1;
+  color: white;
+  text-align: right;
+  max-width: 440px;
+  margin: 0 0 26px auto;
+}
+
+@media screen and (max-width: 1279px) {
+  .detection__title {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .detection__title {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .detection__title {
+    font-size: 36px;
+    line-height: 1.1;
+    margin: 0 0 18px auto;
+  }
+}

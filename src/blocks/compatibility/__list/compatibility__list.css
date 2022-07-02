@@ -1,0 +1,14 @@
+.compatibility__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 24px;
+  padding: 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .compatibility__list {
+    margin: 0 auto 0 40px;
+  }
+}

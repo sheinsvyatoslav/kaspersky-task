@@ -1,0 +1,30 @@
+.features__image-block {
+  position: absolute;
+  width: 155px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto; 
+  margin-right: auto;
+  z-index: 1;
+  background: linear-gradient(144.23deg, rgba(126, 255, 51, 0.4) 0%, rgba(35, 209, 174, 0.4) 79.06%), #23D1AE;
+}
+
+@media screen and (max-width: 1023px) {
+  .features__image-block {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .features__image-block {
+    position: static;
+    margin: -25px 0 23px;
+    height: 12px;
+    width: 100%;
+    background: linear-gradient(170.56deg, rgba(126, 255, 51, 0.4) 32.98%, rgba(35, 209, 174, 0.4) 59.89%), #23D1AE;
+  }
+}
+
+

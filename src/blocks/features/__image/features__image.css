@@ -1,0 +1,20 @@
+.features__image {
+  transform: skewX(9deg);
+  transform-origin: top;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .features__image {
+    width: 250px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .features__image {
+    display: none;
+  }
+}

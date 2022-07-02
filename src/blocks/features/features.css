@@ -1,0 +1,12 @@
+.features {
+  margin: 95px 0 0;
+  height: 3000px;
+}
+
+@media screen and (max-width: 767px) {
+  .features {
+    font-size: 36px;
+    line-height: 1.1;
+    margin: 65px 0 0;
+  }
+}

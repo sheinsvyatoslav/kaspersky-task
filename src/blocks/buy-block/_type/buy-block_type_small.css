@@ -1,0 +1,9 @@
+.buy-block_type_small {
+  background: linear-gradient(317.5deg, rgba(0, 168, 142, 0.4) 66.18%, rgba(126, 255, 51, 0.4) 100%), #23D1AE;
+  flex-direction: row;
+  padding: 12px 15px 7px 12px;
+  box-sizing: border-box;
+  width: calc(100% - (2 * 16px));
+  justify-content: space-between;
+  top: calc(100vh - 67px);
+}

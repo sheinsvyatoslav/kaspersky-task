@@ -1,0 +1,17 @@
+.features__title {
+  color: white;
+  font-size: 48px;
+  line-height: 1.08;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin: 0 0 70px;
+}
+
+@media screen and (max-width: 767px) {
+  .features__title {
+    font-size: 36px;
+    line-height: 1.11;
+    margin: 0 0 20px;
+  }
+}

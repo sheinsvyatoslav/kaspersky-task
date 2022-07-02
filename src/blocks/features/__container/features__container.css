@@ -1,0 +1,11 @@
+.features__container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .features__container {
+    flex-direction: column;
+  }
+}

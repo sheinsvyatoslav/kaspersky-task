@@ -1,0 +1,13 @@
+.detection__lines {
+  width: 16px;
+  height: 96px;
+  border: 2px solid #23D1AE;
+  border-right: 0;
+  margin: 0 0 0 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .detection__lines {
+    height: 90px;
+  }
+}

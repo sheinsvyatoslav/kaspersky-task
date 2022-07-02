@@ -1,0 +1,13 @@
+.detection__date {
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25;
+  margin: 0 0 0 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .detection__date {
+    margin: 7px 0 0;
+  }
+}

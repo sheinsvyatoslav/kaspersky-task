@@ -1,0 +1,24 @@
+.promo__list-item {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+  display: flex;
+}
+
+.promo__list-item::before {
+  flex-shrink: 0;
+  content: '';
+  height: 12px;
+  width: 16px;
+  background-image: url(../../../images/tick_icon.svg);
+  margin: 8px 18px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  .promo__list-item {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}

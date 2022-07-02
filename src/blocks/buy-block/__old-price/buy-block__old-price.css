@@ -1,0 +1,25 @@
+.buy-block__old-price {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.33;
+  color: #006D5C;
+  margin-right: 12px;
+  position: relative;
+  margin: 10px 12px 0 0;
+}
+
+.buy-block__old-price::after {
+  content: '';
+  position: absolute;
+  top: 14px;
+  left: -4px;
+  width: 64px;
+  height: 2px;
+  background-color: #006D5C;
+}
+
+@media screen and (max-width: 767px) {
+  .buy-block__old-price {
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,34 @@
+.buy-block__button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 16px;
+  line-height: 1.25;
+  background-color: #FF3748;
+  color: white;
+  border-radius: 3px;
+  width: 118px;
+  height: 48px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.buy-block__button:focus {
+  outline: none;
+}
+
+.buy-block__button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1279px) {
+  .buy-block__button {
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .buy-block__button {
+    width: 100%;
+  }
+}

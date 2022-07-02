@@ -1,0 +1,9 @@
+.header__logo {
+  display: block;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.header__logo:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}

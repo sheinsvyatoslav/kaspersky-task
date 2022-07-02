@@ -1,0 +1,17 @@
+.buy-block__item_type_description {
+  margin: 0 74px 0 28px;
+}
+
+@media screen and (max-width: 1279px) {
+  .buy-block__item_type_description {
+    margin: 0 20px 0 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .buy-block__item_type_description {
+    margin: 0;
+  }
+}
+
+

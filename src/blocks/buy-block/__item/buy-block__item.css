@@ -1,0 +1,15 @@
+.buy-block__item {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .buy-block__item {
+    padding: 0 0 20px;
+  }
+
+  .buy-block__item:last-child {
+    flex-direction: column;
+    padding: 20px 0 0;
+  }
+}

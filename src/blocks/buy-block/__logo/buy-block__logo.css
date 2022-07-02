@@ -1,0 +1,16 @@
+.buy-block__logo {
+  margin: 0 28px 0 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .buy-block__logo {
+    width: 65px;
+    margin: 0 23px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .buy-block__logo {
+    width: 50px;
+  }
+}

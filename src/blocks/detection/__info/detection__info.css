@@ -1,0 +1,15 @@
+.detection__info {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.14;
+  color: #23D1AE;
+  text-align: right;
+  max-width: 130px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .detection__info{
+    font-size: 24px;
+  }
+}

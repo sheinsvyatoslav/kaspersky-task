@@ -1,0 +1,11 @@
+.buy-block__new-price_type_small {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.buy-block__new-price_type_small:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

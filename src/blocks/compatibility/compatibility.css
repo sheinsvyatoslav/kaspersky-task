@@ -1,0 +1,14 @@
+.compatibility {
+  display: flex;
+  align-items: center;
+  margin: 60px 0 0;
+  position: relative;
+  z-index: 10;
+}
+
+@media screen and (max-width: 767px) {
+  .compatibility {
+    flex-direction: column;
+    margin: 10px 0 0;
+  }
+}

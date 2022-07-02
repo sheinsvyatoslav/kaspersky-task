@@ -1,0 +1,7 @@
+.buy-block__background {
+  background: linear-gradient(271.57deg, rgba(0, 168, 142, 0.4) 77.05%, rgba(126, 255, 51, 0.4) 100%), #23D1AE;
+  grid-area: b;
+  grid-area: c;
+  grid-area: d;
+  z-index: -1;
+}

@@ -1,0 +1,30 @@
+.gaming__list-item {
+  color: #444444;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.33;
+  display: flex;
+  margin: 0 0 8px;
+}
+
+.gaming__list-item::before {
+  flex-shrink: 0;
+  content: '';
+  height: 12px;
+  width: 16px;
+  background-image: url(../../../images/tick_icon.svg);
+  margin: 8px 18px 0 0;
+}
+
+.gaming__list-item:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .gaming__list-item {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0 0 4px;
+  }
+}
+
